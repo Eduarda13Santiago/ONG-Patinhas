@@ -90,8 +90,36 @@ header>.contato_em_cima {
     
 }
 
+.home{
+    color: var(--branco);
+    display: flex;
+    justify-content: ;
+}
+
 .home>button{
+    
+    width:100px;
     background-color: transparent;
     border: none;
     font-family: "abel";
+    color: white;
+    
 }
+button .começo{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+.começo> a{
+    color: var(--roxoPrincipal);
+
+    font-family: "abel", sans-serif;
+    font-size: 18px;
+  
+}
+
+.começo> a:hover{
+    color: var(--roxoClaro);
+}
+
